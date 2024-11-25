@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="app">
+
+<div><input type="text" id="screen" readonly placeholder="0" style="color: black; font-weight: bold; font-size: 15px;"></div>
+<div id="keys">
+<button type="button" class="op" onclick="clearDisplay()">AC</button>
+<button type="button" class="op" onclick="operator5()">%</button>
+<button type="button" class="op" onclick="operator2()">+</button>
+<button type="button" class="op" onclick="operator4()">-</button>
+<button type="button" onclick="number7()">7</button>
+<button type="button" onclick="number8()">8</button>
+<button type="button" onclick="number9()">9</button>
+<button type="button" class="op" onclick="operator3()">/</button>
+<button type="button" onclick="number6()">6</button>
+<button type="button" onclick="number5()">5</button>
+<button type="button" onclick="number4()">4</button>
+<button type="button" class="op" onclick="operator1()">*</button>
+<button type="button" onclick="number3()">3</button>
+<button type="button" onclick="number2()">2</button>
+<button type="button" onclick="number1()">1</button>
+<button type="button" class="op" onclick="operator7()">=</button>
+<button type="button" onclick="number0()">0</button>
+<button type="button" onclick="operator8()">.</button>
+</div>
+
+<marquee behavior="" direction="">
+    <h2 style="color: orange; padding-top: 10px;">Designed By Hemmy</h2>
+</marquee>
+
+<script src="script.js"></script>
+</body>
+</html>
